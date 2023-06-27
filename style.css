@@ -1,0 +1,86 @@
+body{
+    background-image: url('./imagenes/body_img.avif');
+}
+
+.navbar-brand {
+    font-weight: 900;
+    font-family: monospace;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+  }
+
+#about p{
+    font-size: 19px;
+    font-family: cursive;
+    font-weight: bolder;
+}
+
+.delete_button {
+    margin-left: 10px;
+}
+
+.task_item {
+    font-weight: bold;
+}
+
+.footer_form {
+    text-align: center;
+}
+
+.send_button {
+    width: 250px;
+    align-items: center;
+    height: 50px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    background: cadetblue;
+    border: 1px solid cadetblue;
+    color: white;
+    font-weight: 700;
+   
+}
+
+.send_button :hover{
+        background: cadetblue;
+        border: 1px solid cadetblue;
+}
+
+.logotipo{
+    width: 80px;
+    padding: 10% 0;
+}
+
+.c-item{
+    height: 360px;
+}
+
+.c-img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.container {
+    margin-top:50px;
+    margin-bottom:20px;
+
+}
+
+.form-contact{
+    width: 50%;
+    margin:auto
+}
+
+.label_form{
+    font-weight: 900;
+    font-family: monospace;
+    font-size: 18px;
+}
+.navbar-item{
+    flex-direction: row;
+
+}
