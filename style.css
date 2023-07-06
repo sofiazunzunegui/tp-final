@@ -1,4 +1,4 @@
-body{
+body {
     background-image: url('./imagenes/body_img.avif');
 }
 
@@ -9,11 +9,55 @@ body{
     margin-left: 10px;
 }
 
+table {
+    width: 100%;
+
+    border-radius: 10px;
+
+}
+
+tbody {
+    border-width: 2px;
+    border-radius: 10px;
+    color: grey;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.custom-select {
+    width: 50%;
+}
+
+.new {
+    color: brown;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.pending {
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.completed {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
 .completed {
     text-decoration: line-through;
-  }
+}
 
-#about p{
+#about p {
     font-size: 19px;
     font-family: cursive;
     font-weight: bolder;
@@ -42,45 +86,52 @@ body{
     border: 1px solid cadetblue;
     color: white;
     font-weight: 700;
-   
+
 }
 
-.send_button :hover{
-        background: cadetblue;
-        border: 1px solid cadetblue;
+.send_button :hover {
+    background: cadetblue;
+    border: 1px solid cadetblue;
 }
 
-.logotipo{
+.logotipo {
     width: 80px;
     padding: 10% 0;
 }
 
-.c-item{
+.c-item {
     height: 360px;
 }
 
-.c-img{
+.c-img {
     height: 100%;
     object-fit: cover;
 }
 
 .container {
-    margin-top:50px;
-    margin-bottom:20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
 
 }
 
-.form-contact{
+.form-contact {
     width: 50%;
-    margin:auto
+    margin: auto
 }
 
-.label_form{
+.label_form {
     font-weight: 900;
     font-family: monospace;
     font-size: 18px;
 }
-.navbar-item{
+
+.navbar-item {
     flex-direction: row;
 
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
